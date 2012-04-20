@@ -6,11 +6,15 @@ print('''
 
 import sys
 if '-h' in sys.argv or '--help' in sys.argv:
+     print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
+     print('                                           ')
     print('USAGE:  genshell.py [options] output.php')
-    print('')
-    print('  -h, --help          Show this help text')
-    print('  --greetz            Very important stuff')
-    print('')
+    print('                                         ')
+    print('  -pass         Enable Password Protected Shell')
+    print('  -h, --help    Show this help text')
+    print('  --greetz      People Shout Outz <3 ')
+    print(' 
+    print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 
 if '--greetz' in sys.argv:
     print('toxin and d4rk0 send greetz to the following:')
